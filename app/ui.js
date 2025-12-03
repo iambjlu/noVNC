@@ -178,16 +178,16 @@ const UI = {
         UI.initSetting('password');
         UI.initSetting('autoconnect', false);
         UI.initSetting('view_clip', false);
-        UI.initSetting('resize', 'off');
-        UI.initSetting('quality', 6);
-        UI.initSetting('compression', 2);
+        UI.initSetting('resize', 'scale');
+        UI.initSetting('quality', 1);
+        UI.initSetting('compression', 5);
         UI.initSetting('shared', true);
         UI.initSetting('bell', 'on');
         UI.initSetting('view_only', false);
-        UI.initSetting('show_dot', false);
+        UI.initSetting('show_dot', true);
         UI.initSetting('path', 'websockify');
         UI.initSetting('repeaterID', '');
-        UI.initSetting('reconnect', false);
+        UI.initSetting('reconnect', true);
         UI.initSetting('reconnect_delay', 5000);
     },
     // Adds a link to the label elements on the corresponding input elements
