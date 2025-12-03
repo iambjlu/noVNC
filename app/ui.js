@@ -179,8 +179,8 @@ const UI = {
         UI.initSetting('autoconnect', false);
         UI.initSetting('view_clip', false);
         UI.initSetting('resize', 'scale');
-        UI.initSetting('quality', 1);
-        UI.initSetting('compression', 5);
+        UI.initSetting('quality', 0);
+        UI.initSetting('compression', 9);
         UI.initSetting('shared', true);
         UI.initSetting('bell', 'on');
         UI.initSetting('view_only', false);
